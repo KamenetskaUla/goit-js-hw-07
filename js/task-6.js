@@ -24,6 +24,7 @@ function validateInput(amount) {
 }
 
 function createBoxes(amount) {
+  boxesContainer.innerHTML = "";
   const fragment = document.createDocumentFragment();
 
   for (let i = 0; i < amount; i++) {
